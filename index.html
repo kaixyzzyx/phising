@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"
+        integrity="sha512-yk7SvYYZqGS11tWcb6cyoKiwgrNBeCHC7RebrVa0QOySVjh6WjEjaBaBue+VvDBHEfAGa0Z8/b6+LhoGSeweaw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/predefined.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.min.css">
+
+    <!-- Page Title -->
+    <title>ICP Agency</title>
+</head>
+
+<body id="body">
+    <!-- ——— Shape Background ——— -->
+    <div id="shapeBackground"></div>
+
+    <!-- ——— Header ——— -->
+    <div id="backdrop" onclick="toggleSidebar()"></div>
+    <header id="header">
+        <div class="container mx-auto">
+
+            <div class="wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="./images/logo.png" alt="ICO Crypto">
+                </div>
+
+                <!-- Menu -->
+                <aside id="sidebar">
+                    <div class="scroll">
+                        <nav class="nav">
+                            <ul>
+                                <li>
+                                    <a href="#intro">
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#platform" onclick="toggleMega(this)">
+                                        <span>Tanda </span>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#mvp" onclick="toggleMega(this)">
+                                        <span>Tips </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#team" onclick="toggleMega(this)">
+                                        <span>Contoh</span>
+                                    </a>
+                                </li>
+                           
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+
+                <div id="sidebarToggle" onclick="toggleSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- ——— Home [Section 1] ——— -->
+        <section id="intro">
+            <div class="container flex mx-auto">
+                <div class="wrapper">
+                    <div class="top">
+                        <div class="content">
+                            <h1 class="uTitle">Mari Mengenal Lebih Jauh Apa Itu Phishing</h1>
+                            <p class="uParagraph">
+                                Phishing adalah metode kejahatan siber di mana pelaku berpura-pura menjadi pihak terpercaya untuk mendapatkan informasi pribadi dan data sensitif dari korban. Dengan menggunakan taktik manipulasi psikologis atau teknik rekayasa sosial, pelaku phishing mengirim pesan yang terlihat sah, baik itu melalui email, pesan teks, maupun media sosial, dengan tujuan mencuri informasi penting seperti kata sandi, nomor kartu kredit, atau identitas pribadi.
+                            </p>
+                           
+                        </div>
+                        <div class="picture">
+                            <img src="./images/intro-picture.png" alt="intro">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ——— About Us [Section 2] ——— -->
+        <section id="platform" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Tanda Tanda Phishing">Tanda Tanda Phishing</h2>
+                    </div>        
+
+                    <div class="content">
+                        <div class="detail">
+                            <h2>Ini Yang Harus Anda Ketahui :</h2>
+                            <p class="uParagraph"> </p>
+                            <div class="features">
+                                <!-- Feature 1 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Permintaan Informasi Pribadi yang Tidak Lazim: Perusahaan atau lembaga yang sah jarang, atau hampir tidak pernah, meminta informasi pribadi seperti password atau kode OTP melalui email atau pesan teks.</p>
+                                    </div>
+                                </div>
+                                <!-- Feature 2 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Tautan atau Lampiran Mencurigakan: Pesan phising sering kali berisi tautan atau lampiran yang membawa pengguna ke situs palsu atau menyebarkan malware. Sebaiknya hindari membuka tautan atau lampiran dari pengirim yang tidak dikenal.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Feature 3 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Nada yang Mendesak atau Mengancam: Pelaku phising sering menggunakan taktik yang membuat korban panik, seperti ancaman bahwa akun akan ditutup jika tidak ada tindakan segera.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Feature 4 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Kesalahan Ejaan dan Tata Bahasa: Banyak pesan phising mengandung kesalahan tata bahasa dan ejaan yang mencolok, yang dapat menjadi tanda bahwa pesan tersebut tidak berasal dari sumber resmi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="picture flex-center">
+                            <div class="animatedCircle">
+                                <div class="circle big"></div>
+                                <div class="circle small"></div>
+                            </div>
+                            <img src="./images/platform-picture.png" alt="platform">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Product [Section 3] ——— -->
+        <section id="mvp" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Tips Menghindari Bahaya Phishing">Tips Menghindari Bahaya Phishing</h2>
+                    </div>
+
+                    <div class="content">
+                        <div class="pictures">
+                            <img src="./images/mvp-circle.png" alt="circle" class="circle">
+                            <img src="./images/mvp-picture-desktop.png" alt="desktop" class="desktop">
+                            <img src="./images/mvp-polygon.png" alt="polygon" class="polygon">
+                            <img src="./images/mvp-triangle.png" alt="triangle" class="triangle">
+                        </div>
+
+                        <div class="features">
+                            <ul>
+                                <!-- Feature 1 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Jangan Klik Tautan yang Tidak Dikenal: Hindari mengeklik tautan atau lampiran dalam email atau pesan teks yang berasal dari pengirim yang tidak dikenal atau yang tampak mencurigakan.
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- Feature 2 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Periksa Identitas Pengirim: Selalu periksa alamat email atau nomor telepon pengirim. Pelaku phising sering kali menggunakan alamat email yang mirip dengan alamat resmi, tetapi dengan perbedaan kecil, seperti perubahan huruf atau penambahan angka.
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- Feature 3 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Gunakan Otentikasi Dua Faktor (2FA): Aktifkan 2FA di akun penting Anda, terutama di akun keuangan dan media sosial. 2FA menambah lapisan keamanan dengan meminta kode tambahan yang dikirimkan ke perangkat Anda, sehingga lebih sulit bagi pelaku untuk mengakses akun Anda.
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- Feature 4 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Gunakan Otentikasi Dua Faktor (2FA): Aktifkan 2FA di akun penting Anda, terutama di akun keuangan dan media sosial. 2FA menambah lapisan keamanan dengan meminta kode tambahan yang dikirimkan ke perangkat Anda, sehingga lebih sulit bagi pelaku untuk mengakses akun Anda.                                   
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- Feature 5 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Laporkan Pesan Phising: Jika Anda menerima email atau pesan yang mencurigakan, laporkan kepada pihak berwenang atau organisasi terkait agar mereka dapat menindaklanjuti.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+ <!-- ——— About Us [Section 2] ——— -->
+ <section id="platform" class="uSection">
+    <div class="container mx-auto">
+
+        <div class="wrapper">
+            <div class="head uSectionHead">
+                <h2 title="Contoh Kasus Phishing">Contoh Kasus Phishing</h2>
+            </div>        
+
+            <div class="content">
+                <div class="detail">
+                    <h2>Contoh kasus phishing yang biasanya terjadi :</h2>
+                    <p class="uParagraph"> </p>
+                    <div class="features">
+                        <!-- Feature 1 -->
+                        <div class="feature">
+                            <div class="icon">
+                                <i class="far fa-lightbulb"></i>
+                            </div>
+                            <div class="text">
+                                <p>Email Bank Palsu: Nasabah menerima email yang tampak resmi dari bank, mengklaim bahwa akun mereka dibekukan. Mereka diminta untuk login melalui tautan yang sebenarnya adalah situs palsu, dan data login mereka dicuri.</p>
+                            </div>
+                        </div>
+                        <!-- Feature 2 -->
+                        <div class="feature">
+                            <div class="icon">
+                                <i class="far fa-lightbulb"></i>
+                            </div>
+                            <div class="text">
+                                <p>SMS Layanan Kurir Palsu: Korban menerima SMS dari "jasa pengiriman" yang meminta mereka memperbarui status pengiriman melalui tautan palsu. Saat korban memasukkan data pribadi dan kartu kredit, informasi tersebut dicuri.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature 3 -->
+                        <div class="feature">
+                            <div class="icon">
+                                <i class="far fa-lightbulb"></i>
+                            </div>
+                            <div class="text">
+                                <p>Phising Media Sosial: Pengguna media sosial mendapat pesan bahwa akun mereka melanggar kebijakan. Mereka diarahkan ke halaman login palsu, dan informasi akun mereka dicuri oleh pelaku.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature 4 -->
+                        <div class="feature">
+                            <div class="icon">
+                                <i class="far fa-lightbulb"></i>
+                            </div>
+                            <div class="text">
+                                <p>Email Perusahaan Teknologi: Korban mendapat email dari "Google" atau "Apple" yang memperingatkan adanya aktivitas mencurigakan. Mereka diminta untuk login ke halaman palsu, dan data akun mereka diambil oleh pelaku.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture flex-center">
+                    <div class="animatedCircle">
+                        <div class="circle big"></div>
+                        <div class="circle small"></div>
+                    </div>
+                    <img src="./images/phishing.png" alt="platform">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+     
+
+    </main>
+
+    <!-- ——— Footer ——— -->
+    <footer id="footer">
+        <div class="container mx-auto">
+
+            <div class="wrapper">
+                <div class="copyright">
+                    Copyright © 2024 . by Kai.
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Javascript -->
+    <script>
+
+        // ——— Header OnScroll ———
+        const header = document.getElementById('header');
+        function headerOnScroll(event) {
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        }
+        document.addEventListener('scroll', headerOnScroll);
+
+        // ——— Toggle Sidebar ———
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const body = document.getElementById('body');
+        const backdrop = document.getElementById('backdrop');
+        function toggleSidebar() {
+            if (sidebarToggle.classList.contains('active')) { // if Sidebar was OPEN!
+                sidebar.classList.remove('open');
+                sidebarToggle.classList.remove('active');
+                body.classList.remove('noScroll');
+                backdrop.classList.remove('show');
+            } else { // If Sidebar Was CLOSED!
+                sidebar.classList.add('open');
+                sidebarToggle.classList.add('active');
+                body.classList.add('noScroll');
+                backdrop.classList.add('show');
+            }
+        }
+
+        // ——— Toggle Mega Menu ———
+        function toggleMega(theA) {
+            const theMega = theA.nextElementSibling;
+            if (screen.width < 992) {
+                if (theA.classList.contains('active')) {
+                    theA.classList.remove('active');
+                    theMega.classList.remove('open');
+                } else {
+                    theA.classList.add('active');
+                    theMega.classList.add('open');
+                }
+            }
+        }
+
+        // ——— Toggle Accordion ———
+        function toggleAccordion(question) {
+            const paragraph = question.nextElementSibling;
+            if (question.classList.contains('show')) {
+                question.classList.remove('show');
+                paragraph.classList.remove('show');
+            } else {
+                question.classList.add('show');
+                paragraph.classList.add('show');
+            }
+        }
+    </script>
+</body>
+
+</html>
